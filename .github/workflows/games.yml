@@ -35,5 +35,3 @@ jobs:
           file: ./nodejs/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: |
-            ghcr.io/software-noob/pterodactyl-images:games_${{ matrix.tag }}
