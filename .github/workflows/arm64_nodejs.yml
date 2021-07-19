@@ -36,5 +36,3 @@ jobs:
           file: ./arm64/nodejs/${{ matrix.tag }}/Dockerfile
           platforms: linux/arm64
           push: true
-          tags: |
-            ghcr.io/software-noob/arm64:nodejs_${{ matrix.tag }}
