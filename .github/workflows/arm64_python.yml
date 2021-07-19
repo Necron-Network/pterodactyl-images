@@ -36,5 +36,3 @@ jobs:
           file: ./arm64/python/${{ matrix.tag }}/Dockerfile
           platforms: linux/arm64
           push: true
-          tags: |
-            ghcr.io/software-noob/arm64:python_${{ matrix.tag }}
