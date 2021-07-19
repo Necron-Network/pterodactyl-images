@@ -38,5 +38,3 @@ jobs:
           file: ./java/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: |
-            ghcr.io/software-noob/pterodactyl-images:java_${{ matrix.tag }}_zulu
