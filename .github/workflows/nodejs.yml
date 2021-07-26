@@ -38,3 +38,5 @@ jobs:
           file: ./nodejs/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
+          tags: |
+            ghcr.io/necron-network/pterodactyl-images:nodejs_${{ matrix.tag }}
