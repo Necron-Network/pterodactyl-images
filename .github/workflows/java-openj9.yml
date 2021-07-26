@@ -38,3 +38,5 @@ jobs:
           file: ./java/${{ matrix.tag }}/Dockerfile
           platforms: linux/amd64
           push: true
+          tags: |
+            ghcr.io/necron-network/pterodactyl-images:java_${{ matrix.tag }}_openj9
